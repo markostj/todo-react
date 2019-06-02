@@ -1,0 +1,53 @@
+body {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.wrapper {
+  max-width: 800px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+a {
+  color: green;
+}
+
+.nav {
+  background-color: #f6f6f6;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+}
+
+.nav__item {
+  margin: 0 20px;
+}
+
+.nav__link {
+  color: red;
+  text-decoration: initial;
+}
+
+.nav__link--active {
+  text-decoration: underline;
+}
+
+.footer {
+  margin-top: 20px;
+  background-color: #f6f6f6;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+}
+
+.pagination__item {
+  margin: 0 5px;
+}
+
+.pagination__item--active {
+  background-color: blue;
+}
